@@ -15,9 +15,13 @@ h1{
 #subtext{
   color: $g;
 }
-.navbar, #navbarNavAltMarkup {
+%back-border-green{
   background-color: $g;
   border-color: $g;
+
+}
+.navbar, #navbarNavAltMarkup {
+  @extend %back-border-green
 }
 #profile{
 

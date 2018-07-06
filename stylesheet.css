@@ -1,0 +1,122 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+.page-header {
+  margin: 30px;
+}
+
+#subtext {
+  color: green;
+}
+
+.navbar, #navbarNavAltMarkup {
+  background-color: green;
+  border-color: green;
+}
+
+#profile {
+  width: 250px;
+  max-width: 100%;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+#education ul li {
+  background-color: black;
+  color: white;
+}
+
+#table {
+  margin: auto;
+  margin-top: 60px;
+}
+
+#table table {
+  background-color: black;
+}
+
+#facebook {
+  height: 60px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#linkedin {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+#github {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+#gmail {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+ul li img {
+  vertical-align: middle;
+}
+
+ul li {
+  color: white;
+  font-size: 25px;
+  list-style-type: none;
+  display: block;
+  height: 100px;
+  line-height: 50px;
+}
+ul li a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+ul > li > a {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  ul li a {
+    color: black;
+  }
+  ul li a:hover {
+    color: black;
+  }
+
+  #facebook {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  #linkedin {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #github {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #gmail {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.jumbotron {
+  background-color: black;
+  color: white;
+  margin: left;
+}

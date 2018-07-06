@@ -1,0 +1,119 @@
+$b: black;
+$w: white;
+$g: green;
+
+
+body {
+  background-color: $b;
+}
+h1{
+  color: $w;
+}
+.page-header{
+  margin: 30px;
+}
+#subtext{
+  color: $g;
+}
+.navbar, #navbarNavAltMarkup {
+  background-color: $g;
+  border-color: $g;
+}
+#profile{
+
+    width: 250px;
+    max-width: 100%;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#education ul li{
+  background-color: $b;
+  color: $w;
+}
+#table{
+  margin: auto;
+  margin-top: 60px;
+}
+#table table{
+  background-color: $b;
+}
+#facebook{
+  height:60px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+#linkedin{
+  height:60px;
+  margin-bottom: 15px;
+}
+#github{
+  height:60px;
+  margin-bottom: 15px;
+}
+#gmail{
+  height:60px;
+  margin-bottom: 15px;
+}
+ul li img {
+    vertical-align: middle;
+}
+ul{
+ li{
+  color: $w;
+  font-size: 25px;
+  list-style-type: none;
+  display: block;
+  height: 100px;
+  line-height: 50px;
+  a:hover{
+    color: $g;
+    text-decoration:none;
+    }
+  }
+}
+
+
+
+ul > li > a{
+    color: $w;
+}
+
+
+@media (max-width: 600px) {
+  ul li{
+    a {
+    color: $b;
+      }
+    a:hover{
+      color: $b;
+      }
+  }
+  #facebook{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top:30px;
+    }
+  #linkedin{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    }
+    #github{
+      height: 100px;
+      display: block;
+      margin: 0 auto;
+      }
+    #gmail{
+      height: 100px;
+      display: block;
+      margin: 0 auto;
+        }
+}
+
+.jumbotron{
+  background-color:$b;
+  color: $w;
+  margin: left;
+}

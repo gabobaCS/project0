@@ -3,13 +3,13 @@ This is a simple website built for CS50's Web Programming with Python and JavaSc
 
 Files contained within the project:
 
-* **index.html**: The homepage of the site. Contains Bootstraps' Jumbotron, with a button that links to the courses site.
+* **index.html**: The homepage of the site. Contains Bootstraps' Jumbotron, with a button that links to the course's site.
 
-* **about.html**: Contains a little image a myself and a brief parragraph detailing some general aspects of my life. 
+* **about.html**: Contains a little image of myself and a brief parragraph detailing some general aspects of my life. 
 
-* **education.html**: Contains a small chart of the insitutions where I have studied throughout my life as well as the years of graduation of each.
+* **education.html**: Contains a small chart of the insitutions where I have studied throughout my life as well as the years of graduation for each.
 
-* **contact.html**: Contains hyperlinks to different sites via which I can be contacted, specifically Facebook, Linkedin, GitHub and Gmail. Each way of contact has an image which redirects to the sites.
+* **contact.html**: Contains hyperlinks to different sites via which I can be contacted, specifically Facebook, Linkedin, GitHub and Gmail. Each way of contact has an image that redirects to the sites.
 
 * **images**: A folder with all of the images used.
 
